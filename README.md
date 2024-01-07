@@ -70,6 +70,11 @@ Add Java and Maven paths to the system PATH variable
 PATH=$PATH:$HOME/bin:$JAVA_HOME:$MVN_HOME:$MVN
 ```
 
+Update the bash_profile
+```
+source .bash_profile
+```
+
 Check Java version
 ```
 mvn --version
